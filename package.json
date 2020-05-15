@@ -1,10 +1,16 @@
 {
   "name": "@thekalko/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The kalko core modul",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:thekalko/core.git",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git", 
+    "url": "git+git@github.com:thekalko/core.git"
+  },
   "author": "thekalko <thecyberkalko@gmail.hu>",
   "license": "GPL-v3",
   "private": true,
